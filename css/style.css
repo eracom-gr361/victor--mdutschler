@@ -25,10 +25,45 @@
 
 html {
 	font-family: selectricroman, serif;
+	 height: 100%;
+	 background: url(../img/cachot2.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
+
+li a {
+		color: #888
+}
+
+li a.active {
+	color: yellow;
+}
+
+ul{
+	margin-left: 1em;
+}
+
+body{max-width:50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 
 h1 {
 	font-family: selectricmono, monospace;
+	text-align: center;
+}
+
+
+h2 {
+	font-family: selectric, monospace;
+	text-align: center;
+}
+
+p{
+	text-indent: 1.8em;
 }
 
 
@@ -43,4 +78,3 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
